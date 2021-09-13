@@ -1,0 +1,22 @@
+{
+  "name": "civilinventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+  "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "fastest-validator": "^1.11.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
